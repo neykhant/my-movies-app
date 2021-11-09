@@ -21,7 +21,7 @@ function App() {
         let results = data.Search;
 
         setState ( prevState => {
-          console.log(prevState);
+          // console.log(prevState);
           return { ...prevState, results: results };
           
         })
@@ -29,7 +29,7 @@ function App() {
     }
   }
 
-console.log(state.results);
+// console.log(state.results);
 
   const handleInput = e => {
     let s = e.target.value;
